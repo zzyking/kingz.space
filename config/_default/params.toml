@@ -25,7 +25,7 @@ defaultBackgroundImage = "/img/firewatch.jpg" # used as default for background i
 defaultFeaturedImage = "/img/firewatch.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
-# smartTOC = true
+smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 giteaDefaultServer = "https://git.fsfe.org"
@@ -42,7 +42,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 5

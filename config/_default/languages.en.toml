@@ -2,15 +2,15 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 2
-title = ""
+title = "King's Space"
 
 [params]
   displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  logo = "/img/logo.svg"
+  secondaryLogo = "/img/logo.svg"
   # description = "My awesome website"
   copyright = ":copyright: { year } King Zang"
 
@@ -53,8 +53,8 @@ title = ""
 #     { patreon = "https://www.patreon.com/username" },
 #     { pinterest = "https://pinterest.com/username" },
 #     { reddit = "https://reddit.com/user/username" },
-    { researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang" },
     { linkedin = "https://www.linkedin.com/in/%E6%B3%BD%E5%85%83-%E8%87%A7-958b67279/" },
+    { researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang" },
 #     { slack = "https://workspace.url/team/userid" },
 #     { snapchat = "https://snapchat.com/add/username" },
 #     { soundcloud = "https://soundcloud.com/username" },
