@@ -1,7 +1,7 @@
 disabled = false
 languageCode = "zh-cn"
 languageName = "Simplified Chinese (China)"
-weight = 1
+weight = 2
 title = "King's Space"
 
 [params]
