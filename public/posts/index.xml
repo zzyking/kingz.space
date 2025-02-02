@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on King&#39;s Space</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on King&#39;s Space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zangking@outlook.com (King Zang)</managingEditor>
+    <webMaster>zangking@outlook.com (King Zang)</webMaster>
+    <copyright>:copyright: 2025 King Zang</copyright>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>first post</title>
+      <link>//localhost:1313/posts/1738483788144-first-post/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <author>zangking@outlook.com (King Zang)</author>
+      <guid>//localhost:1313/posts/1738483788144-first-post/</guid>
+      <description>an example to get you started</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/1738483788144-first-post/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

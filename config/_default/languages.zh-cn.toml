@@ -22,7 +22,6 @@ title = "King's Space"
   headline = "The world is my oyster"
   bio = "B3, BUPT, CS"
   links = [
-    { email = "mailto:zangking@outlook.com" },
     { email = "mailto:zangzeyuan@bupt.edu.cn" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
