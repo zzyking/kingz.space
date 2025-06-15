@@ -9,8 +9,27 @@ displayName = "English"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "/img/logo.svg"
-secondaryLogo = "/img/logo.svg"
+logo = "/icons/logo.svg"
+secondaryLogo = "/icons/logo.svg"
 copyright = ":copyright: { year } King Zang"
-author = { name = "King Zang", email = "zangking@outlook.com", image = "/img/mozart.jpg", imageQuality = 96, headline = "The world is my oyster", bio = "B3, BUPT, CS", links = [ { email = "mailto:zangzeyuan@bupt.edu.cn" }, { github = "https://github.com/zzyking" }, { x-twitter = "https://x.com/KingZang2" }, { linkedin = "https://www.linkedin.com/in/%E6%B3%BD%E5%85%83-%E8%87%A7-958b67279/" }, { researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang" } ] }
 description = ""
+
+[params.author]
+name = "King Zang"
+email = "zangking@outlook.com"
+image = "/img/mozart.jpg"
+imageQuality = 96
+headline = "Always learn..."
+bio = "B3, BUPT, CS"
+
+  [[params.author.links]]
+  email = "mailto:zangzeyuan@bupt.edu.cn"
+
+  [[params.author.links]]
+  github = "https://github.com/zzyking"
+
+  [[params.author.links]]
+  linkedin = "https://www.linkedin.com/in/%E6%B3%BD%E5%85%83-%E8%87%A7-958b67279/"
+
+  [[params.author.links]]
+  researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang"

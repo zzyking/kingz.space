@@ -11,6 +11,13 @@ defaultFeaturedImage = "/img/firewatch.jpg"
 smartTOC = true
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
+firebase = { }
+fathomAnalytics = { }
+umamiAnalytics = { }
+selineAnalytics = { }
+buymeacoffee = { }
+verification = { }
+rssnext = { }
 
 [header]
 layout = "fixed"
@@ -39,7 +46,7 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = true
-showHero = false
+showHero = true
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -56,6 +63,7 @@ showTaxonomies = false
 showAuthorsBadges = false
 showWordCount = true
 showZenMode = false
+heroStyle = "background"
 
 [list]
 showHero = false
@@ -94,17 +102,3 @@ showTableOfContents = true
 groupByYear = false
 cardView = false
 cardViewScreenWidth = false
-
-[firebase]
-
-[fathomAnalytics]
-
-[umamiAnalytics]
-
-[selineAnalytics]
-
-[buymeacoffee]
-
-[verification]
-
-[rssnext]
