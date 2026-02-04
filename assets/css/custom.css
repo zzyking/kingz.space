@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("../fonts/Linux Libertine/LinLibertine_Rah.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("../fonts/Linux Libertine/LinLibertine_RBah.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Linux Libertine";
+  src: url("../fonts/Linux Libertine/LinLibertine_RZah.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  display: inline-block;
+  max-height: 3rem;
+  max-width: 3rem;
+}
+
+.logo svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: "Linux Libertine", "Palatino Linotype", "Palatino", "Book Antiqua", serif;
+}
+
+#menu-blur {
+  backdrop-filter: blur(96px);
+  -webkit-backdrop-filter: blur(96px);
+}
+
+body[data-page-kind="section"],
+body[data-page-kind="taxonomy"],
+body[data-page-kind="term"] {
+  background: none;
+}
+
+.dark body[data-page-kind="section"],
+.dark body[data-page-kind="taxonomy"],
+.dark body[data-page-kind="term"] {
+  background: none;
+}
+
+body[data-page-kind="section"]::after,
+body[data-page-kind="taxonomy"]::after,
+body[data-page-kind="term"]::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(
+      to top,
+      rgba(var(--color-neutral), 1),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      to top,
+      rgba(var(--color-neutral), 0.6),
+      rgba(var(--color-neutral-100), 0.6)
+    ),
+    var(--list-bg-url) center / cover no-repeat;
+}
+
+.dark body[data-page-kind="section"]::after,
+.dark body[data-page-kind="taxonomy"]::after,
+.dark body[data-page-kind="term"]::after {
+  background:
+    linear-gradient(
+      to top,
+      rgba(var(--color-neutral-800), 1),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      to top,
+      rgba(var(--color-neutral-800), 0.6),
+      rgba(var(--color-neutral-800), 0.6)
+    ),
+    var(--list-bg-url) center / cover no-repeat;
+}
+
+.fireflies-enabled #fireflies-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
