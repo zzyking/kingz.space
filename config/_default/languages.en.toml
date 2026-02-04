@@ -20,16 +20,16 @@ email = "zangking@outlook.com"
 image = "/img/mozart.jpg"
 imageQuality = 96
 headline = "Always learn..."
-bio = "B3, BUPT, CS"
+bio = "B4 @ BUPT CS; Incoming PhD @ ZGCA"
 
-  [[params.author.links]]
-  email = "mailto:zangzeyuan@bupt.edu.cn"
+[[params.author.links]]
+email = "mailto:zangzeyuan@bupt.edu.cn"
 
-  [[params.author.links]]
-  github = "https://github.com/zzyking"
+[[params.author.links]]
+github = "https://github.com/zzyking"
 
-  [[params.author.links]]
-  linkedin = "https://www.linkedin.com/in/%E6%B3%BD%E5%85%83-%E8%87%A7-958b67279/"
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/in/zeyuan-zang-958b67279/"
 
-  [[params.author.links]]
-  researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang"
+[[params.author.links]]
+researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang"

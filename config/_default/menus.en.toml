@@ -2,21 +2,21 @@
 none = "none"
 
 [[main]]
-name = "About"
-pageRef = "about"
-identifier = "vUgIt4roCR"
-weight = 9999
-
-[[main]]
 name = "Posts"
 pageRef = "posts"
 identifier = "kuf3MU2mYl"
-weight = 9999
+weight = 99
 
 [[main]]
 name = "Projects"
 pageRef = "projects"
 identifier = "PIrQYKeFWj"
+weight = 999
+
+[[main]]
+name = "About"
+url = "https://zzyking.github.io/"
+identifier = "vUgIt4roCR"
 weight = 9999
 
 [[footer]]
