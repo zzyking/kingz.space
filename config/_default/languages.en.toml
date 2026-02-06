@@ -26,10 +26,16 @@ bio = "B4 @ BUPT CS; Incoming PhD @ ZGCA"
 email = "mailto:zangzeyuan@bupt.edu.cn"
 
 [[params.author.links]]
+email = "mailto:zangking001@gmail.com"
+
+[[params.author.links]]
+link = "https://zzyking.github.io/"
+
+[[params.author.links]]
 github = "https://github.com/zzyking"
 
 [[params.author.links]]
-linkedin = "https://www.linkedin.com/in/zeyuan-zang-958b67279/"
+x-twitter = "https://x.com/KingZang2"
 
 [[params.author.links]]
-researchgate = "https://www.researchgate.net/profile/Zeyuan-Zang"
+steam = "https://steamcommunity.com/profiles/76561199544831479/"
