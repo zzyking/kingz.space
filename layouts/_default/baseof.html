@@ -14,12 +14,21 @@
   {{ $listKinds := slice "section" "taxonomy" "term" }}
   {{ if in $listKinds .Kind }}
     {{ $bg := "" }}
+    {{ with .Params.featureimage }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $bg = resources.GetRemote . }}
+      {{ else }}
+        {{ $bg = resources.Get . }}
+      {{ end }}
+    {{ end }}
+    {{ if not $bg }}
     {{ with site.Params.list.listBackgroundImage }}
       {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
         {{ $bg = resources.GetRemote . }}
       {{ else }}
         {{ $bg = resources.Get . }}
       {{ end }}
+    {{ end }}
     {{ end }}
     {{ if not $bg }}
       {{ with site.Params.defaultBackgroundImage }}
