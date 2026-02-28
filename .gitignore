@@ -1,5 +1,6 @@
 public/
 resources/
+docs/
 
 # Binaries for programs and plugins
 *.exe
