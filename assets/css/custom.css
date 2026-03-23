@@ -75,3 +75,21 @@ body[data-page-kind="term"]::after {
   pointer-events: none;
   mix-blend-mode: screen;
 }
+
+.highlight .ln {
+  min-width: 2.5rem;
+  margin-right: 0.75rem;
+  padding-right: 0.75rem;
+  border-right: 1px solid rgba(var(--color-neutral-300), 0.6);
+  opacity: 0.7;
+}
+
+.dark .highlight .ln {
+  border-right-color: rgba(var(--color-neutral-700), 0.8);
+}
+
+body[data-page-kind="page"] #single_header,
+body[data-page-kind="page"] .article-content,
+body[data-page-kind="page"] main article > footer {
+  max-width: 72ch;
+}
