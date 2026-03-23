@@ -1,6 +1,6 @@
 ---
 title: "first post"
-date: 1970-01-01
+date: 2026-01-01
 draft: false
 description: "a description"
 tags: ["example", "tag"]
