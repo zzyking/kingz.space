@@ -3,7 +3,7 @@ title: "Fixing Ghostty SSH Key Issues on Remote Machines"
 date: 2026-03-21T10:38:00+08:00
 draft: false
 description: "A practical fix for broken backspace and cursor keys when SSHing from Ghostty to remote hosts without the xterm-ghostty terminfo entry."
-tags: ["Terminal"]
+tags: ["Terminal", "MacOS"]
 ---
 
 Recently, I ran into a strange issue when using Ghostty on macOS to SSH into another machine. Locally, everything worked fine, but on the remote host the keyboard behavior was clearly wrong: pressing backspace inserted spaces, and some cursor keys did not behave as expected.
